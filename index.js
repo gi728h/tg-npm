@@ -19,7 +19,7 @@ const rl = readline.createInterface({
 let message = ""
 
 const job = new CronJob(
-  '0 30 19 * * *', // cronTime
+  '0 30 5 * * *', // cronTime
 
   // This runs every day at 7:30 PM.
   // The pattern is:
