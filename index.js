@@ -38,7 +38,7 @@ const job = new CronJob(
         const data1 = await client.sendMessage("-1001546838749", { message: "/grow@DickGrowerBot" });
         const data2 = await client.sendMessage("-1001546838749", { message: "/shipping@SHIPPERINGbot" });
         const data3 = await client.sendMessage("-1001546838749", { message: "/dick_of_day@DickGrowerBot" });
-        const data4 = await client.sendMessage("-1001546838749", { message: "/grow@DickGrowerBot" });
+        const data4 = await client.sendMessage("-1001546838749", { message: "/rokda@ChaddiBot" });
       })();
       message = "Message sent! at " + new Date().toLocaleString('en-US', {
         timeZone: 'Asia/Calcutta'
