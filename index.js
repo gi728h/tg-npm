@@ -16,7 +16,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-let message = ""
+let message = "HI"
 
 const job = new CronJob(
   '0 30 5 * * *', // cronTime
